@@ -1,5 +1,6 @@
 package com.infosys.people.management.app.resource;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,7 +26,7 @@ public class BookController {
 	}
 	
 	@GetMapping("/findAllBooks")
-	public Iterable<Book> getBooks() {
+	public List<Book> getBooks() {
 		return repository.findAll();
 	}
 	
