@@ -1,4 +1,4 @@
-package com.infosys.people.management.app.resource;
+package com.infosys.people.management.app.controller;
 
 import java.util.Optional;
 
